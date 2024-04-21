@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+nav{
+    background-color: rgb(51, 53, 107);
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: 'Poppins', sans-serif;
+}
+.search{
+    background-color: transparent;
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    border: solid 2px rgb(39, 37, 76);
+    margin: 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 1rem 0 1rem;
+    font-size: 1rem;
+    letter-spacing: .5px;
+}
+.search:focus{
+    outline
+    : none;
+}
+
+.search:focus{
+    background-color: rgb(39, 37, 76);
+}
+.search::placeholder{
+    color: rgb(119, 124, 210);
+}
